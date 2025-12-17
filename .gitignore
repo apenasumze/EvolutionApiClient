@@ -1,0 +1,16 @@
+# Ambiente Virtual (NUNCA deve subir)
+venv/
+.venv/
+env/
+
+# Arquivos temporários do Python (Lixo)
+__pycache__/
+*.pyc
+
+# Senhas e Segredos (PERIGO MÁXIMO)
+.env
+
+# Distribuição (Criados pelo setup.py)
+dist/
+build/
+*.egg-info/
